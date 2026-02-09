@@ -18,6 +18,6 @@ Remotes:
     byzheng/optree,
     byzheng/tidyweather
 Config/testthat/edition: 3
-URL: https://rapsimng.canola.bangyou.me/,
+URL: https://canola.rapsimng.bangyou.me/,
     https://github.com/byzheng/rapsimng.canola
 BugReports: https://github.com/byzheng/rapsimng.canola/issues

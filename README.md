@@ -11,3 +11,10 @@ Currently on [Github](https://github.com/byzheng/rapsimng.canola) only. Install 
 ```r
 remotes::install_github('byzheng/rapsimng.canola')
 ```
+
+## Documentation
+
+For detailed documentation and reference, visit: https://canola.rapsimng.bangyou.me
+
+---
+
