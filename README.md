@@ -1,3 +1,5 @@
+[![R-CMD-check.yaml](https://github.com/byzheng/rapsimng.canola/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/rapsimng.canola/actions/workflows/R-CMD-check.yaml)
+
 # rapsimng.canola
 
 Canola model for APSIM Next Generation.
