@@ -1,0 +1,19 @@
+Package: rapsimng.canola
+Title: Canola Model for APSIM Next Generation
+Version: 0.1.0
+Authors@R: 
+    person("Bangou", "Zheng", , "bangyou.zheng@csiro.au", role = c("aut", "cre"))
+Description: Canola model for APSIM Next Generation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1.0)
+Imports:
+    settings
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://rapsimng.canola.bangyou.me/,
+    https://github.com/byzheng/rapsimng.canola
+BugReports: https://github.com/byzheng/rapsimng.canola/issues
