@@ -1,6 +1,11 @@
 
 #' Calculate thermal time using cardinal temperatures
 #'
+#' @details 
+#' The daily thermal time is calculated by interpolating the effective thermal time at three hour intervals between the daily minimum and maximum temperatures, and then averaging these values to get the daily thermal time.
+#' For more information about the canola phenology model, see the 
+#' [APSIM Next Generation Canola Documentation](https://apsimng-notes.bangyou.me/docs/Plants/Canola/Phenology/ThermalTime.html).
+#' 
 #' @param maxt The maximum temperature
 #' @param mint The minimum temperature
 #' @param x_temp The cardinal temperatures using to calculate thermal time. The default values are c(2, 30, 35) defined in canola$get("phenology.thermal_time.x").
