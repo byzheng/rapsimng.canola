@@ -1,0 +1,32 @@
+# rapsimng.canola
+
+Canola model for APSIM Next Generation.
+
+## Installation
+
+Currently on [Github](https://github.com/byzheng/rapsimng.canola) only.
+Install with:
+
+``` r
+
+remotes::install_github('byzheng/rapsimng.canola')
+```
+
+## Documentation
+
+For detailed documentation and reference, visit:
+<https://canola.rapsimng.bangyou.me>
+
+------------------------------------------------------------------------
+
+# Package index
+
+## All functions
+
+- [`canola`](https://canola.rapsimng.bangyou.me/reference/canola.md) :
+  Canola model options manager
+- [`thermal_time()`](https://canola.rapsimng.bangyou.me/reference/thermal_time.md)
+  : Calculate thermal time using cardinal temperatures
+- [`vernalisation_days()`](https://canola.rapsimng.bangyou.me/reference/vernalisation_days.md)
+  : Calculate vernalisation time using cardinal temperatures
+
