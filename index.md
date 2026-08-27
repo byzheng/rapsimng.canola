@@ -16,5 +16,3 @@ remotes::install_github('byzheng/rapsimng.canola')
 
 For detailed documentation and reference, visit:
 <https://canola.rapsimng.bangyou.me>
-
-------------------------------------------------------------------------
