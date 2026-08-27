@@ -27,6 +27,7 @@ thermaltime_validator <- function(value) {
 #'
 #' @export
 #' @importFrom optree create_options_manager
+#' @importFrom optree v_xypair
 #' @examples
 #' # Get default thermal time cardinal temperatures
 #' canola$get("phenology.thermal_time.x")
@@ -55,7 +56,7 @@ canola <- optree::create_options_manager(
         )
     ),
     validators = list(
-        "phenology.thermal_time" = thermaltime_validator,
-        "phenology.vernalisation_time" = thermaltime_validator
+        "phenology.thermal_time" = v_xypair(min_len = 3),
+        "phenology.vernalisation_time" = v_xypair(min_len = 3)
     )
 )

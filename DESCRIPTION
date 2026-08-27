@@ -1,23 +1,23 @@
 Package: rapsimng.canola
-Title: Canola Model for APSIM Next Generation
+Title: Crop-Specific Functions and Parameters for APSIM Next Generation Canola Model
 Version: 0.1.0
 Authors@R: 
     person("Bangyou", "Zheng", email = "zheng.bangyou@gmail.com", role = c("aut", "cre"))
-Description: Canola model for APSIM Next Generation.
+Description: Provides canola-specific functions, processes and parameter sets used by
+    canola model in the Agricultural Production Systems sIMulator ('APSIM') Next Generation.
+    Includes tools for crop process calculations, parameter management and customisation, 
+    enabling users to explore, modify and apply canola model components.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
 Depends: R (>= 4.1.0)
 Imports:
     optree,
     tidyweather
 Suggests: 
     testthat (>= 3.0.0)
-Remotes:
-    byzheng/optree,
-    byzheng/tidyweather
 Config/testthat/edition: 3
 URL: https://canola.rapsimng.bangyou.me/,
     https://github.com/byzheng/rapsimng.canola
 BugReports: https://github.com/byzheng/rapsimng.canola/issues
+Config/roxygen2/version: 8.1.0
