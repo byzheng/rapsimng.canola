@@ -10,7 +10,7 @@ thermal_time(
   maxt,
   x_temp = canola$get("phenology.thermal_time.x"),
   y_temp = canola$get("phenology.thermal_time.y"),
-  method = "3hr"
+  method = canola$get("phenology.thermal_time.method")
 )
 ```
 
@@ -38,9 +38,10 @@ thermal_time(
 
 - method:
 
-  The method to calculate thermal time. The default method is "3hr",
-  which uses the three hour temperature method. The other option is
-  "default", which uses the default method ( maxt + mint ) / 2 - base.
+  The method to calculate thermal time. Supported values are "3hr",
+  which uses the three hour temperature method, and
+  "HourlySinPpAdjusted", which uses an hourly sinusoidal
+  photoperiod-adjusted method. The default is "3hr".
 
 ## Value
 
