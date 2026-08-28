@@ -10,7 +10,7 @@
 #' @param mint The minimum temperature
 #' @param x_temp The cardinal temperatures using to calculate thermal time. The default values are c(2, 30, 35) defined in canola$get("phenology.thermal_time.x").
 #' @param y_temp The effective thermal time at the corresponding cardinal temperatures. The default values are c(0, 28, 0) defined in canola$get("phenology.thermal_time.y").
-#' @param method The method to calculate thermal time. The default method is "3hr", which uses the three hour temperature method. The other option is "default", which uses the default method ( maxt + mint ) / 2 - base.
+#' @param method The method to calculate thermal time. Supported values are "3hr", which uses the three hour temperature method, and "HourlySinPpAdjusted", which uses an hourly sinusoidal photoperiod-adjusted method. The default is "3hr".
 #' @return The thermal time.
 #' @export
 #' @examples 
@@ -21,6 +21,6 @@ thermal_time <- function(mint,
         maxt,
         x_temp = canola$get("phenology.thermal_time.x"), 
         y_temp = canola$get("phenology.thermal_time.y"),
-        method = "3hr") {
+        method = canola$get("phenology.thermal_time.method")) {
     tidyweather::thermal_time(mint, maxt, x_temp, y_temp, method)
 }
