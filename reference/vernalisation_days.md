@@ -48,7 +48,7 @@ the daily vernalisation time.
 
 For more information about the canola phenology model, see the [APSIM
 Next Generation Canola
-Documentation](https://apsimng-notes.bangyou.me/docs/Plants/Canola/Phenology/Vegetative.html).
+Documentation](https://notes.apsimng.bangyou.me/docs/Plants/Canola/Phenology/Vegetative.html).
 
 ## Examples
 
