@@ -6,6 +6,9 @@
 \usage{
 canola
 }
+\value{
+An option manager object for configuring canola model parameters.
+}
 \description{
 An options manager for configuring canola model parameters. This object provides
 methods to get and set canola related parameters.
