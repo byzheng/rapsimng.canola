@@ -9,6 +9,10 @@ provides methods to get and set canola related parameters.
 canola
 ```
 
+## Value
+
+An option manager object for configuring canola model parameters.
+
 ## Available Options
 
 - phenology.thermal_time.x:
