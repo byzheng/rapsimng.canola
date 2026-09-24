@@ -1,5 +1,10 @@
 [![R-CMD-check.yaml](https://github.com/byzheng/rapsimng.canola/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/rapsimng.canola/actions/workflows/R-CMD-check.yaml)
 
+[![](http://cranlogs.r-pkg.org/badges/grand-total/rapsimng.canola?color=green)](https://cran.r-project.org/package=rapsimng.canola)
+[![](http://cranlogs.r-pkg.org/badges/last-month/rapsimng.canola?color=green)](https://cran.r-project.org/package=rapsimng.canola)
+[![](http://cranlogs.r-pkg.org/badges/last-week/rapsimng.canola?color=green)](https://cran.r-project.org/package=rapsimng.canola)
+
+
 # rapsimng.canola
 
 Canola model for APSIM Next Generation.
