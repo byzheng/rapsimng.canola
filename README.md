@@ -1,3 +1,4 @@
+[![](https://www.r-pkg.org/badges/version/rapsimng.canola?color=green)](https://cran.r-project.org/package/rapsimng.canola)
 [![R-CMD-check.yaml](https://github.com/byzheng/rapsimng.canola/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/rapsimng.canola/actions/workflows/R-CMD-check.yaml)
 
 [![](http://cranlogs.r-pkg.org/badges/grand-total/rapsimng.canola?color=green)](https://cran.r-project.org/package=rapsimng.canola)
